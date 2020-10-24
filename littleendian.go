@@ -20,6 +20,9 @@ import "math"
 
 var _ = (LittleEndian)(nil)
 
+// LE is an Alias for LittleEndian.
+type LE = LittleEndian
+
 // LittleEndian defines little-endian serialization.
 type LittleEndian []byte
 

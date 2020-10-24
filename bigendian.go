@@ -20,6 +20,9 @@ import "math"
 
 var _ = (BigEndian)(nil)
 
+// BE is an Alias for BigEndian.
+type BE = BigEndian
+
 // BigEndian defines big-endian serialization.
 type BigEndian []byte
 

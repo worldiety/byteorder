@@ -12,6 +12,7 @@ lint: ## Executes all linters
 
 test: ## Executes the tests
 	${GO} test -race ./...
+	${GO} test -cover
 
 .PHONY: lint test setup
 
