@@ -1,2 +1,2 @@
-# byteorder
+# byteorder [![Travis-CI](https://travis-ci.com/worldiety/byteorder.svg?branch=master)](https://travis-ci.com/worldiety/byteorder) [![Go Report Card](https://goreportcard.com/badge/github.com/worldiety/byteorder)](https://goreportcard.com/report/github.com/worldiety/byteorder) [![GoDoc](https://godoc.org/github.com/worldiety/byteorder?status.svg)](http://godoc.org/github.com/worldiety/byteorder)
 This go module provides convenience methods for encoding and decoding numbers in either big-endian or little-endian order.
