@@ -2,6 +2,10 @@ language: go
 go:
   - 1.15.x
 
+env:
+  global:
+    - TMPDIR=/tmp
+
 before_install:
   - make setup
 
